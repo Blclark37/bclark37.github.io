@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title> Blake's Amazing Website</title>
+         <style>
+            body {
+                background: rgb(255, 253, 250);
+                color: rgb(255, 253, 23);
+                padding: 15px;
+                font-family: arial;
+            }
+            header {
+                font-size: 1.5em;
+                font-weight: bold;
+            }
+            [id=all-contents] {
+                max-width: 800px;
+                margin: auto;
+            }
+
+            /* navigation menu */
+            nav {
+                background: rgb(255, 253, 250);
+                margin: 0 auto;
+                display: flex;
+                padding: 10px;
+            }
+            nav header {
+                display: flex;
+                align-items: center;
+                color: rgb(255, 25, 250);
+                flex: 1;
+            }
+            nav ul {
+                list-style-image: none;
+            }
+            nav li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            nav a {
+                text-decoration: none;
+                color: #001240;
+            }
+
+            /* main container area beneath menu */
+            main {
+                background: #001240;
+                display: flex;
+            }
+            [class=sidebar] {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            [class=sidebar] img {
+                width: 400px;
+            }
+            [class=content] {
+                flex: 1;
+                padding: 15px;
+            }
+            [class=interests] header {
+                font-size: 1.25em;
+            }
+        </style>
+    </head>
+    <body>
+       <div id="all-contents">
+           <nav>
+             <ul>
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="portfoliol.html">Portfolio</a></a></li>
+             </ul>  
+           </nav>
+           
+           <main>
+              <div class= "sidebar">
+                  <img src="https://photos-1.dropbox.com/t/2/AAB4F5xyUp4J-NVGzCJzECv3mNvtZ2XgB9HeZpdC0E_tCA/12/107106419/jpeg/256x256/1/_/1/2/2016-05-21%2016.32.52.jpg/EOnF8FIY75EFIAIoAg/LkfftrIwbXkBR6w6vY9DXwaZObYiDtocsuawPvsiv6c?size_mode=3&size=2048x1536"></img>
+              </div>
+              <div class= "contents">
+                  <header>Blake Clark</header>
+                  <p>Teacher at Edna Karr High School</p>
+                  <section class="Interests"></section>
+                    <header>Interests</header>
+                    <ul>
+                        <li>Running</li>
+                        <li>Sewing</li>
+                        <li>Learning Math</li>
+                    </ul>
+              </div>
+           </main>
+       </div> 
+    </body>
+</html>
